@@ -31,7 +31,7 @@ func (g *grpccmd) Init(gen *generator.Generator) {
 func (g *grpccmd) GenerateImports(file *generator.FileDescriptor) {
 	g.P("// grpccmd imports")
 	g.P(`import (
-	"github.com/nathanielc/grpccmd"
+	"github.com/docmerlin/grpccmd"
 	"github.com/spf13/cobra"
 )`)
 }

@@ -1,11 +1,11 @@
 package main
 
 import (
+	"context"
 	"log"
 	"net"
 
-	"github.com/nathanielc/grpccmd/example/internal/pb"
-	"golang.org/x/net/context"
+	"github.com/docmerlin/grpccmd/example/internal/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

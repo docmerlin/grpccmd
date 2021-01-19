@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"os"
 
+	_ "github.com/docmerlin/grpccmd"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/generator"
 	_ "github.com/golang/protobuf/protoc-gen-go/grpc"
-	_ "github.com/nathanielc/grpccmd"
 )
 
 func main() {
