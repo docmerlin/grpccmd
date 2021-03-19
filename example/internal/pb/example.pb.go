@@ -15,7 +15,7 @@ import (
 
 // grpccmd imports
 import (
-	"github.com/nathanielc/grpccmd"
+	"github.com/docmerlin/grpccmd"
 	"github.com/spf13/cobra"
 )
 
